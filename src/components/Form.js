@@ -33,7 +33,7 @@ const Formulario = () => {
 				}}
 				onSubmit={(values, {resetForm})=>{
 					console.log(values);
-					fetch('http://localhost:4000/messages/add',{
+					fetch('https://anibaljuarezportfolio.herokuapp.com/messages/add',{
 						method:'POST',
 						headers: {'Content-Type':'application/json'},
 						body:JSON.stringify(values)
