@@ -11,15 +11,17 @@ const Projets=()=> {
         .then((data)=>setAllProjects(data))
     },[])
 
+
+   
    
     return (
         <div className={classes.projets} id="projects">
             <Title title="Projets"/>
             <div className={classes.list_projets}>
 
-                {allProjects.map((oneProject)=>(
+                {allProjects? allProjects.map((oneProject)=>(
                     <CardProjet key={oneProject._id} title={oneProject.title} img={oneProject.image} link={oneProject.link} text={oneProject.texte}/>
-                ))}
+                )):(<div className={classes.load}>chargement en cours...</div>)}
                 
             </div>
             

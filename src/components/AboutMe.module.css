@@ -64,4 +64,14 @@
     border: 1px solid #EBA048;
 }
 
+@media (max-width:600px){
+    .about_me{
+      
+        background-image: url(../assets/images/Fondo.PNG);
+        background-position: center;
+        background-repeat: repeat; 
+    }
+
+
+}
 

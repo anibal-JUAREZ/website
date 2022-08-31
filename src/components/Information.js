@@ -1,11 +1,17 @@
 import React from 'react';
 import classes from './Information.module.css';
 import Title from './Title';
+import imgInformation from '../../src/assets/images/aboutme.png';
 const Information=() =>{
     return (
-        <div className={classes.my_information} id="information">
+        <div className={classes.my_information}>
             <Title title="a propos de moi"/>
-            <p>
+            <section>
+                <article>
+                    <img src={imgInformation} alt="developpeur web"/>
+                </article>
+                <article>
+                <p>
                 Ingénieur de système, j'ai toujours été attiré par le domaine des interfaces web ainsi que par
                 la programmation. Ainsi, lors de ma dernière année à l’université, j’avais participé à une
                 “foire des systèmes”, où j’avais imaginé et développé un logiciel de facturation utilisable par
@@ -35,6 +41,9 @@ const Information=() =>{
                 autonomie, mon aptitude à me documenter, ma rigueur et ma motivation.
             </p>
             <p>Anibal Juarez</p>
+                </article>
+            </section>
+            
 
         </div>
     );

@@ -6,7 +6,7 @@ import Footer from './Footer'
 const Contact = (props) => {
     return (
         <div id="contact">
-            <Title title="Contact"/>
+            <Title title="Contactez-moi"/>
             <div className={classes.contenedor}>
                 <Form/>
             </div>

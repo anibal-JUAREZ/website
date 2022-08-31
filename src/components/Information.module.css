@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 .my_information{
-    margin: 1rem 1rem 0 ;
-    background-color:rgba(81, 161, 222, 0.127); 
+    margin: 1rem 1rem 0;
+    background-color:rgba(81, 161, 222, 0.127);  
     padding-top: 1rem; 
+  
 }
 
 
@@ -10,12 +11,33 @@
 .my_information p{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1rem;
-    text-align:center;
+    text-align:justify;
     margin:1rem auto 0;
     width: 80%;
    
 }
+.my_information section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 
+.my_information section article:first-of-type{
+    width: 35%;
+    margin-left: 1rem;
+    
+}
+
+.my_information section article:last-of-type{
+    width: 60%;
+   
+    
+}
+
+.my_information section article:first-of-type img{
+    width: 100%;
+}
 .my_information p:first-of-type{
     margin:3rem auto 0;
 }
@@ -24,4 +46,44 @@
     font-family: 'Arizonia', cursive;
     font-size: 2rem;
     padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+@media (max-width:500px){
+
+    .my_information section{
+       flex-direction: column;
+       
+    }
+    .my_information section article:first-of-type{
+        width: 80%;
+        margin-left: 1rem;
+        
+    }
+    
+    .my_information section article:last-of-type{
+        width: 100%;
+       
+        
+    }
+    
+}
+
+@media (min-width:501px) and (max-width:1024px){
+    .my_information section{
+        flex-direction: column;
+        
+     }
+     .my_information section article:first-of-type{
+         width: 70%;
+         margin-left: 1rem;
+         
+     }
+     
+     .my_information section article:last-of-type{
+         width: 100%;
+        
+         
+     }
 }

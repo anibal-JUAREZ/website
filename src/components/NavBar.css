@@ -32,6 +32,11 @@ li{
     align-items: center;
     justify-content: space-around;
     height: 9vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    
     /* background: #6482C7; */
 }
 
@@ -87,6 +92,7 @@ li{
     }
     .nav{
         background: #6482C7; 
+      
     }
     a{
         color: #fff;
