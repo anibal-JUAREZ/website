@@ -1,0 +1,94 @@
+
+
+.formulario {
+	/* min-width: 600px; */
+	width: 50%;
+	margin-top: 50px;
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.formulario > div {
+	margin-bottom: 20px;
+}
+
+.formulario label {
+    font-family: 'IBM Plex Sans', sans-serif;
+	display: block;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+.formulario input,
+.formulario textarea {
+	font-family: 'IBM Plex Sans', sans-serif;
+	width: 100%;
+	border-radius: 5px;
+	border: 2px solid #e2e2e2;
+	font-size: 14px;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+.formulario textarea {
+    height: 10rem;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+	outline: none;
+	border: 2px solid #6482C7;
+}
+
+.formulario .error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.formulario button[type="submit"] {
+	display: block;
+	background: #6482C7;
+	font-weight: 600;
+	font-family: 'IBM Plex Sans', sans-serif;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	transition: .3s ease all;
+}
+
+.formulario button[type="submit"]:hover {
+	background-color: #EBA048;
+    border: 1px solid #EBA048;
+}
+
+.formulario .exito {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	color: #02a802;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@media (max-width:480px){
+    .formulario{
+      
+		width: 90%;
+    }
+}
+
+@media (min-width:481px) and (max-width:1024px){
+    .formulario{
+      
+		width: 90%;
+    }
+}

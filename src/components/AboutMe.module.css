@@ -1,0 +1,67 @@
+
+.about_me{
+    margin: 0 1rem ;
+    padding-top: 1rem;
+    background-image: url(../assets/images/1-01.JPG);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: 90%; 
+    
+
+}
+
+.information{
+   padding: 25vh 0;
+    
+    
+    
+    margin-left: 5rem;   
+   
+
+   
+   
+   
+}
+.information h1{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 3rem;
+    color: #EBA048;
+    text-transform: uppercase;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+
+.information p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.information button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6482C7;
+    border: 1px solid #6482C7;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.information button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.information button:hover{
+    color: #fff;
+    background-color: #EBA048;
+    border: 1px solid #EBA048;
+}
+
+

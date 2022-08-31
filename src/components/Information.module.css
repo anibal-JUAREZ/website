@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+.my_information{
+    margin: 1rem 1rem 0 ;
+    background-color:rgba(81, 161, 222, 0.127); 
+    padding-top: 1rem; 
+}
+
+
+
+.my_information p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    text-align:center;
+    margin:1rem auto 0;
+    width: 80%;
+   
+}
+
+.my_information p:first-of-type{
+    margin:3rem auto 0;
+}
+
+.my_information p:last-of-type{
+    font-family: 'Arizonia', cursive;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}

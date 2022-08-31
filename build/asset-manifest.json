@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4de75d9c.css",
+    "main.js": "/static/js/main.94b3e6ad.js",
+    "static/media/1-01.JPG": "/static/media/1-01.d3e288181c017a9c05e1.JPG",
+    "static/media/CVANIBALJUAREZ.pdf": "/static/media/CVANIBALJUAREZ.11053243e2a333b81b1b.pdf",
+    "index.html": "/index.html",
+    "main.4de75d9c.css.map": "/static/css/main.4de75d9c.css.map",
+    "main.94b3e6ad.js.map": "/static/js/main.94b3e6ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4de75d9c.css",
+    "static/js/main.94b3e6ad.js"
+  ]
+}

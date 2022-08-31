@@ -1,0 +1,17 @@
+
+
+.projets{
+ 
+    margin: 0 1rem 1.5rem;
+    
+    padding-top: 1rem;
+}
+
+.list_projets{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+

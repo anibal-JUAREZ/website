@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;700&family=IBM+Plex+Sans:wght@400;700&display=swap');
+.title{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+   
+    margin-left: 5rem;
+    text-transform: uppercase;
+    position: relative;
+    background: transparent;
+}
+
+ .title::after{
+    content:"";
+    position: absolute;
+    width: 4%;
+    height: 5px;
+    background-color: #EBA048;
+    display: block;
+    margin: auto;
+}

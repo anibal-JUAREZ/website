@@ -1,0 +1,83 @@
+.card{
+    width: 32%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    background-color: #fff;
+    position: relative;
+    
+   
+  
+}
+
+.card h3{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+.card img{
+    width: 100%;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background:rgba(81, 161, 222, 0.826);
+}
+.layer a{
+    
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 0.5rem;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover a{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+
+@media (max-width:500px){
+    .card{
+      
+      width:100%;
+      margin: 0.5rem;
+    }
+}
+
+@media (min-width:501px) and (max-width:1024px){
+    .card{
+      
+        width:45%;
+        margin: 0.5rem;
+    }
+}
+
+/* @media (max-width:1025px){
+    .about_me{
+      
+     min-height: 60vh;
+    
+    }
+}  */
