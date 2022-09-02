@@ -5,7 +5,7 @@ import imgInformation from '../../src/assets/images/aboutme.png';
 const Information=() =>{
     return (
         <div className={classes.my_information}>
-            <Title title="a propos de moi"/>
+            <Title title="à propos de moi"/>
             <section>
                 <article>
                     <img src={imgInformation} alt="developpeur web"/>
@@ -40,7 +40,7 @@ const Information=() =>{
                 je sais m'investir dans un projet innovant, où je suis généralement apprécié pour mon
                 autonomie, mon aptitude à me documenter, ma rigueur et ma motivation.
             </p>
-            <p>Anibal Juarez</p>
+            <p>Aníbal Juárez</p>
                 </article>
             </section>
             

@@ -22,7 +22,7 @@ const NavBar=()=> {
                         <Link to='/' className="nav__link">accueil</Link>
                     </li>
                     <li className="nav__item">
-                        <Link to='/aboutme' className="nav__link">a propos de moi</Link>
+                        <Link to='/aboutme' className="nav__link">à propos de moi</Link>
                     </li>
                     <li className="nav__item">
                         <Link to='/project' className="nav__link">projets</Link>

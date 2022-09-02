@@ -6,7 +6,7 @@ import CardProjet from './CardProjet';
 const Projets=()=> {
     const [allProjects, setAllProjects]=useState([])
     useEffect(()=>{
-        fetch('https://anibaljuarezportfolio.herokuapp.com/projects/allprojects')
+        fetch('https://anibal-juarez-website.herokuapp.com/projects/allprojects')
         .then((response)=>response.json())
         .then((data)=>setAllProjects(data))
     },[])
