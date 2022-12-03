@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "text": "page principale du site personnel d'Anibal Juarez",
+        "image": "website.png",
+        "link": "https://github.com/anibal-JUAREZ/website",
+        "title": "Mon Site Personnel"
+      },
+    {
+        "id": 2,
+        "title": "Food API",
+        "image": "foodapi.png",
+        "link": "https://github.com/anibal-JUAREZ/portfolio/tree/main/FOOD%20API",
+        "text": "image de nourriture"
+      },
+
+      {
+        "id": 3,
+        "title": "To-Do List",
+        "image": "todolist.png",
+        "text": "image de la liste de tâches",
+        "link": "https://github.com/anibal-JUAREZ/portfolio/tree/main/TO-DO-LIST"
+      },
+      {
+        "id": 4,
+        "image": "quizz.png",
+        "text": "image de la première question à répondre",
+        "link": "https://github.com/anibal-JUAREZ/portfolio/tree/main/QUIZZ-PORTFOLIO",
+        "title": "Quiz"
+      }
+
+]
