@@ -6,7 +6,7 @@ import CardProjet from './CardProjet';
 const Projets=()=> {
     const [allProjects, setAllProjects]=useState([])
     useEffect(()=>{
-        fetch('https://anibal-juarez-website.herokuapp.com/projects/allprojects')
+        fetch('/projects.json')
         .then((response)=>response.json())
         .then((data)=>setAllProjects(data))
     },[])
@@ -20,7 +20,7 @@ const Projets=()=> {
             <div className={classes.list_projets}>
 
                 {allProjects.length !== 0? allProjects.map((oneProject)=>(
-                    <CardProjet key={oneProject._id} title={oneProject.title} img={oneProject.image} link={oneProject.link} text={oneProject.texte}/>
+                    <CardProjet key={oneProject.id} title={oneProject.title} img={oneProject.image} link={oneProject.link} text={oneProject.texte}/>
                 )):(<div className={classes.load}>chargement en cours...</div>)}
                 
             </div>
